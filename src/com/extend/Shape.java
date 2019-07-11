@@ -19,4 +19,7 @@ public class Shape {
     public void printShapeMsg() {
         System.out.println("I'm " + name);
     }
+    void introduce() {
+        System.out.println("hi I'm Shape");
+    }
 }
