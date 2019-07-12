@@ -1,0 +1,30 @@
+// 多态,从父级开始在继承链上寻找调用的方法是否存在，只要有一级存在就可以。然后调用从自身开始最近的一个存在的方法
+
+// 继承的实例化，先实例化父类的那个对象、再实例化自身
+// 下面这段代码，标有重点的这行，注释与否可以看出顺序
+class X {
+    Y b = new Y();
+    X() {
+        System.out.print("X");
+    }
+}
+
+class Y {
+    Y() {
+        System.out.print("Y");
+    }
+}
+
+class Z extends X {
+    Y y = new Y(); // 重点
+    Z() {
+        //super();//默认，供系统底层检查调用，而不具体执行class Z的构造方法
+        System.out.print("Z");
+    }
+}
+class Test {
+    public static void main(String[] args) {
+        new Z();
+    }
+}
+

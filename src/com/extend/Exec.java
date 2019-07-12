@@ -1,6 +1,10 @@
 package com.extend;
 
 public class Exec {
+    private static final void testFinalFunc(final int a) {
+        System.out.println(a);
+        System.out.println(a);
+    }
     public static void main(String[] args) {
         Triangle triangle = new Triangle("triangle");
         Rect rect = new Rect("rect");
@@ -17,5 +21,7 @@ public class Exec {
         triangle.setBorderNum(3);
         System.out.println(triangle.getBorderNum());
         triangle.introduce();
+        final int a = 2;
+        testFinalFunc(a);
     }
 }
