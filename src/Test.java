@@ -1,25 +1,31 @@
-class X {
-    Y b = new Y();
-    X() {
-        System.out.print("X");
+class A{
+    public void show(){
+        show2();
+    }
+    public void show2(){
+        System.out.println("1");
+    }
+}
+class B extends A {
+    public void show2(){
+        System.out.println("2");
+    }
+}
+class C extends B {
+    public void show(){
+        super.show();
+    }
+
+    public void show2(){
+        System.out.println("3");
     }
 }
 
-class Y {
-    Y() {
-        System.out.print("Y");
-    }
-}
-
-class Z extends X {
-    Y y = new Y();
-    Z() {
-        //super();//默认，供系统底层检查调用，而不具体执行class Z的构造方法
-        System.out.print("Z");
-    }
-}
 class Test {
     public static void main(String[] args) {
-        new Z();
+        A a = new B();
+        a.show();
+        B b = new C();
+        b.show();
     }
 }
