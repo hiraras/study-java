@@ -1,31 +1,28 @@
-class A{
-    public void show(){
-        show2();
-    }
-    public void show2(){
-        System.out.println("1");
-    }
-}
-class B extends A {
-    public void show2(){
-        System.out.println("2");
-    }
-}
-class C extends B {
-    public void show(){
-        super.show();
-    }
+/**
+ *
+ * author: fjma
+ */
+import java.util.Scanner;
+// 抽象类中的main也可以执行
+import java.util.Arrays;
 
-    public void show2(){
-        System.out.println("3");
-    }
-}
+class Student {
 
-class Test {
+}
+public abstract class Test {
+    public static void test() {
+
+    }
     public static void main(String[] args) {
-        A a = new B();
-        a.show();
-        B b = new C();
-        b.show();
+        int[] arr = {3,2,1,54,2};
+        System.out.println(new Integer("1") == 1); // true
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+        System.out.println(new Integer("123").intValue() == Integer.valueOf("123"));
+        System.out.println(Integer.parseInt("123"));
+        System.out.println(Integer.toBinaryString(20));
+        System.out.println(Integer.toHexString(20));
+        System.out.println(Integer.toString(16, 2));
+        System.out.println(Integer.parseInt("1000", 2));
     }
 }

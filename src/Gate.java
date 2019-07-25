@@ -2,7 +2,6 @@ import com.time.*;
 import java.util.Date;
 import java.util.Scanner;
 //import basic.Cat;
-import animal.Cat;
 
 public class Gate {
     private static int a = 1;
@@ -68,8 +67,6 @@ public class Gate {
         System.out.println(ff2);
         System.out.println(dd);
         System.out.println(ff3);
-        Cat cat = new Cat();
-        cat.say();
     }
 
     public static void test() {
