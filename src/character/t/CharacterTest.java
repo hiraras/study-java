@@ -12,5 +12,9 @@ public class CharacterTest {
         System.out.println(Character.isDigit(ch3)); // true
         System.out.println(Character.toUpperCase(ch1)); // A
         System.out.println(Character.toLowerCase(ch2)); // a
+        System.out.println(Character.isUpperCase('0')); // false
+        System.out.println(Character.isLowerCase('0')); // false
+        char ch4 = Character.toLowerCase('0');
+        System.out.println(ch4); // 0
     }
 }
