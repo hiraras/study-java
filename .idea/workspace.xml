@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee6c3e8f-ec96-4437-8043-ae186ce49edb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/normal/toolclass/ToolClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/normal/toolclass/ToolClass.java" afterDir="false" />
-    </list>
+    <list default="true" id="ee6c3e8f-ec96-4437-8043-ae186ce49edb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,99 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/integer/t/IntegerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="68" column="15" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/character/t/CharacterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/normal/toolclass/ToolClass.java">
+        <entry file="file://$PROJECT_DIR$/src/collection/t/CollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="235" column="21" lean-forward="true" selection-start-line="235" selection-start-column="21" selection-end-line="235" selection-end-column="21" />
+            <state relative-caret-position="459">
+              <caret line="199" column="51" lean-forward="true" selection-start-line="199" selection-start-column="51" selection-end-line="199" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#regTest#0;class#ToolClass#0" />
-                <element signature="method#mathTest#0;class#ToolClass#0" />
-                <element signature="method#randomTest#0;class#ToolClass#0" />
-                <element signature="method#systemTest#0;class#ToolClass#0" />
-                <element signature="method#bigIntegerTest#0;class#ToolClass#0" />
-                <element signature="method#bigDecimalTest#0;class#ToolClass#0" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="method#createNumCollection#0;class#CollectionTest#0" />
+                <element signature="method#collectionArrayListTest#0;class#CollectionTest#0" />
+                <element signature="method#testCollectionArrayListOverride#0;class#CollectionTest#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45012">
-              <caret line="2119" column="42" selection-start-line="2119" selection-start-column="42" selection-end-line="2119" selection-end-column="42" />
-              <folding>
-                <element signature="e#82667#82668#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk/src.zip!/java/util/regex/Pattern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23936">
-              <caret line="1133" column="37" selection-start-line="1133" selection-start-column="37" selection-end-line="1133" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/java/jdk/src.zip!/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16478">
-              <caret line="782" column="29" selection-start-line="782" selection-start-column="29" selection-end-line="782" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stringbuffer/t/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1892">
-              <caret line="86" column="66" selection-start-line="86" selection-start-column="66" selection-end-line="86" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/t/ArrayTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-513">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -202,10 +121,11 @@
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/character/t/CharacterTest.java" />
         <option value="$PROJECT_DIR$/src/normal/toolclass/ToolClass.java" />
+        <option value="$PROJECT_DIR$/src/collection/t/CollectionTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="72" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -243,13 +163,8 @@
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="toolclass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Clone.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="t" type="462c0819:PsiDirectoryNode" />
+              <item name="CollectionTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -286,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ToolClass">
+  <component name="RunManager" selected="Application.CollectionTest">
     <configuration name="CharacterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="character.t.CharacterTest" />
       <module name="java" />
@@ -300,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="integer.t.IntegerTest" />
+    <configuration name="CollectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.t.CollectionTest" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="integer.t.*" />
+          <option name="PATTERN" value="collection.t.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionTest" />
         <item itemvalue="Application.ToolClass" />
         <item itemvalue="Application.CharacterTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.IntegerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -400,12 +315,12 @@
       <workItem from="1564017177898" duration="10427000" />
       <workItem from="1564122843333" duration="5248000" />
       <workItem from="1564363594246" duration="23172000" />
-      <workItem from="1564448992512" duration="946000" />
+      <workItem from="1564448992512" duration="13822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238585000" />
+    <option name="totallyTimeSpent" value="251461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,7 +332,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
@@ -755,6 +670,30 @@
             <element signature="method#systemTest#0;class#ToolClass#0" />
             <element signature="method#bigIntegerTest#0;class#ToolClass#0" />
             <element signature="method#bigDecimalTest#0;class#ToolClass#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/t/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="199" column="51" lean-forward="true" selection-start-line="199" selection-start-column="51" selection-end-line="199" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="method#createNumCollection#0;class#CollectionTest#0" />
+            <element signature="method#collectionArrayListTest#0;class#CollectionTest#0" />
+            <element signature="method#testCollectionArrayListOverride#0;class#CollectionTest#0" />
           </folding>
         </state>
       </provider>
