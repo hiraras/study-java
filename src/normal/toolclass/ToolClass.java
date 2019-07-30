@@ -181,10 +181,11 @@ public class ToolClass {
         System.out.println(str); // 2019-07-29 14:22:38:692
         // 将日期字符串转化为日期相关对象
         try {
-            String strDate = "2020-01-31";
+            String strDate = "2020-01-31 12:12 12";
             // 使用parse方法要用try{}catch(e){}包裹
-            Date date3 = new SimpleDateFormat("yyyy-MM-dd").parse(strDate);
-            System.out.println("date3:" + date3); // date3:Fri Jan 31 00:00:00 CST 2020
+            // 格式一样就可以解析,不一样会报错;如果下面的pattern为"yyyy-MM-dd" 则会忽略strDate多出来的部分,多出的部分时间设置为0
+            Date date3 = new SimpleDateFormat("yyyy-MM-dd HH:mm ss").parse(strDate);
+            System.out.println("date3:" + date3); // date3:Fri Jan 31 12:12:12 CST 2020
         } catch(Exception e) {
             System.out.println(e);
         }

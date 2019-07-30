@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee6c3e8f-ec96-4437-8043-ae186ce49edb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/array/t/ArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/array/t/ArrayTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/character/t/CharacterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/character/t/CharacterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/t/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/character/t/CharacterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/normal/toolclass/ToolClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/normal/toolclass/ToolClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/normal/toolclass/ToolClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="236" selection-start-line="236" selection-end-line="236" />
+            <state relative-caret-position="283">
+              <caret line="235" column="21" lean-forward="true" selection-start-line="235" selection-start-column="21" selection-end-line="235" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#regTest#0;class#ToolClass#0" />
@@ -93,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/java/jdk/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="2119" column="42" lean-forward="true" selection-start-line="2119" selection-start-column="42" selection-end-line="2119" selection-end-column="42" />
+            <state relative-caret-position="45012">
+              <caret line="2119" column="42" selection-start-line="2119" selection-start-column="42" selection-end-line="2119" selection-end-column="42" />
               <folding>
                 <element signature="e#82667#82668#0" expanded="true" />
               </folding>
@@ -105,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/java/jdk/src.zip!/java/util/regex/Pattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="1133" column="37" lean-forward="true" selection-start-line="1133" selection-start-column="37" selection-end-line="1133" selection-end-column="37" />
+            <state relative-caret-position="23936">
+              <caret line="1133" column="37" selection-start-line="1133" selection-start-column="37" selection-end-line="1133" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -132,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/array/t/ArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
+            <state relative-caret-position="-513">
               <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
@@ -209,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="72" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -223,8 +219,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,6 +232,12 @@
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="t" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -397,12 +399,13 @@
       <workItem from="1563931896532" duration="21217000" />
       <workItem from="1564017177898" duration="10427000" />
       <workItem from="1564122843333" duration="5248000" />
-      <workItem from="1564363594246" duration="23126000" />
+      <workItem from="1564363594246" duration="23172000" />
+      <workItem from="1564448992512" duration="946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237593000" />
+    <option name="totallyTimeSpent" value="238585000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,10 +417,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16257995" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -702,6 +705,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/java/jdk/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45012">
+          <caret line="2119" column="42" selection-start-line="2119" selection-start-column="42" selection-end-line="2119" selection-end-column="42" />
+          <folding>
+            <element signature="e#82667#82668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk/src.zip!/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23936">
+          <caret line="1133" column="37" selection-start-line="1133" selection-start-column="37" selection-end-line="1133" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/java/jdk/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16478">
@@ -718,32 +738,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/array/t/ArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
+        <state relative-caret-position="-513">
           <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="2119" column="42" lean-forward="true" selection-start-line="2119" selection-start-column="42" selection-end-line="2119" selection-end-column="42" />
-          <folding>
-            <element signature="e#82667#82668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/util/regex/Pattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="1133" column="37" lean-forward="true" selection-start-line="1133" selection-start-column="37" selection-end-line="1133" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/normal/toolclass/ToolClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        <state relative-caret-position="283">
+          <caret line="235" column="21" lean-forward="true" selection-start-line="235" selection-start-column="21" selection-end-line="235" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#regTest#0;class#ToolClass#0" />
