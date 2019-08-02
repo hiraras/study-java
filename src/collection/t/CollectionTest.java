@@ -50,6 +50,7 @@ public class CollectionTest {
         }
         return list;
     }
+
     public static void collectionArrayListTest() {
         // 无序的一个聚集
         // add 直接将元素添加，添加另一个list的时候变成[[],123]这样的格式
@@ -121,7 +122,7 @@ public class CollectionTest {
         // 通过Iterator遍历
         Iterator it = list5.iterator();
         System.out.println("------iterator1--------");
-        while(it.hasNext()) {
+        while (it.hasNext()) {
             System.out.println(it.next());
         }
         Collection list6 = new ArrayList();
@@ -134,8 +135,15 @@ public class CollectionTest {
         // 求两个集合之间的交集
         list6.retainAll(createNumCollection(2));
         System.out.println(list6); // [0, 1]
+
+        Collection list7 = new ArrayList();
+        list7.add(1);
+        list7.add("123");
+        System.out.println(list7); // [1, 123]
+        Object[] arr = list7.toArray(); // 返回的数组元素是Object类型，无法相加 arr[1] + arr[0] 会报错
         System.out.println("-------collectionArrayListTest-end----------");
     }
+
     public static void testCollectionArrayListOverride() {
         System.out.println("-------testCollectionArrayListOverride-start----------");
         Person p = new Person("jack", 8);
@@ -158,11 +166,12 @@ public class CollectionTest {
         System.out.println(list2);
         Iterator it = list2.iterator();
         while (it.hasNext()) {
-            Person s = (Person)it.next();
+            Person s = (Person) it.next();
             System.out.println(s.getName() + "---" + s.getAge());
         }
         System.out.println("-------testCollectionArrayListOverride-end----------");
     }
+
     public static void listArrayListTest() {
         // 有序列表,可通过索引查找
         System.out.println("-------listArrayListTest-start----------");
@@ -204,9 +213,44 @@ public class CollectionTest {
         System.out.println(lIt.hasNext()); // true
         System.out.println("-------listArrayListTest-end----------");
     }
+
     public static void main(String[] args) {
-//        collectionArrayListTest();
+        collectionArrayListTest();
 //        testCollectionArrayListOverride();
-        listArrayListTest();
+//        listArrayListTest();
+//        test();
+    }
+
+    public static void test() {
+        List list = new ArrayList();
+        list.add("hello");
+        list.add("world");
+        list.add("java");
+        ListIterator lt = list.listIterator();
+        while (lt.hasNext()) {
+            String ele = (String) lt.next();
+            if (ele.equals("world")) {
+                // 因为迭代器是针对集合的，所以此时对list进行添加就是一边操作一边遍历，
+                // 迭代器没有发生变化，而集合发生了变化，所以会报错。此时可以用ListIterator迭代器来添加
+                // 效果为在当前位置添加，注意：Iterator迭代器没有add方法，故无法使用
+                // 下面会溢出
+                /*
+                list.add("android");
+                lt = list.iterator();
+                */
+                // 当前位置添加
+                lt.add("android");
+            }
+        }
+        System.out.println(list); // [hello, world, android, java]
+        // 或者使用for循环
+        for (int i = 0, len = list.size(); i < len; i += 1) {
+            String ele = (String) list.get(i);
+            if (ele.equals("world")) {
+                // 最后面添加
+                list.add("hi");
+            }
+        }
+        System.out.println(list); // [hello, world, android, java, hi]
     }
 }
