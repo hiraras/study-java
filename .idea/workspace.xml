@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java/collection/t/CollectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/collection/t/CollectionTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/collection/t/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/t/CollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/t/Genericity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/t/Genericity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/t/VariousList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/t/VariousList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +43,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/collection/t/CollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="411">
+              <caret line="253" column="34" lean-forward="true" selection-start-line="253" selection-start-column="34" selection-end-line="253" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#Person#0" />
+                <element signature="method#testCollectionArrayListOverride#0;class#CollectionTest#0" />
+                <element signature="method#listArrayListTest#0;class#CollectionTest#0" />
               </folding>
             </state>
           </provider>
@@ -54,23 +58,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/collection/t/VariousList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="572">
+              <caret line="133" column="26" lean-forward="true" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#vectorTest#0;class#VariousList#0" />
-                <element signature="method#arrayListTest#0;class#VariousList#0" />
                 <element signature="method#linkedListTest#0;class#VariousList#0" />
+                <element signature="method#getExtendsRelative#0;class#VariousList#0" />
+                <element signature="method#excludeRepeat#0;class#VariousList#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collection/t/Genericity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/collection/t/Genericity.java">
+        <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="66">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+              <folding>
+                <element signature="e#87#88#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,6 +120,8 @@
       <find>removeAll</find>
       <find>toArray</find>
       <find>add</find>
+      <find>retain</find>
+      <find>create</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -146,9 +169,12 @@
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/character/t/CharacterTest.java" />
         <option value="$PROJECT_DIR$/src/normal/toolclass/ToolClass.java" />
-        <option value="$PROJECT_DIR$/src/collection/t/CollectionTest.java" />
-        <option value="$PROJECT_DIR$/src/collection/t/VariousList.java" />
         <option value="$PROJECT_DIR$/src/collection/t/genericity.java" />
+        <option value="$PROJECT_DIR$/src/collection/t/女朋友.java" />
+        <option value="$PROJECT_DIR$/src/collection/t/CollectionTest.java" />
+        <option value="$PROJECT_DIR$/src/collection/t/Genericity.java" />
+        <option value="$PROJECT_DIR$/src/collection/t/VariousList.java" />
+        <option value="$PROJECT_DIR$/src/utils/Utils.java" />
       </list>
     </option>
   </component>
@@ -166,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -190,20 +215,7 @@
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="t" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="t" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="t" type="462c0819:PsiDirectoryNode" />
-              <item name="CollectionTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -215,6 +227,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,34 +280,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToolClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="normal.toolclass.ToolClass" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="normal.toolclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VariousList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection.t.VariousList" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.t.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="genericity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.t.genericity" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -318,10 +305,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Genericity" />
-        <item itemvalue="Application.genericity" />
-        <item itemvalue="Application.VariousList" />
         <item itemvalue="Application.CollectionTest" />
-        <item itemvalue="Application.ToolClass" />
+        <item itemvalue="Application.VariousList" />
       </list>
     </recent_temporary>
   </component>
@@ -366,12 +351,18 @@
       <workItem from="1564567985740" duration="715000" />
       <workItem from="1564640581157" duration="4356000" />
       <workItem from="1564709518106" duration="8062000" />
-      <workItem from="1564725120240" duration="7876000" />
+      <workItem from="1564725120240" duration="10139000" />
+      <workItem from="1564966846234" duration="10348000" />
+      <workItem from="1565072648776" duration="10571000" />
+      <workItem from="1565141375375" duration="15689000" />
+      <workItem from="1565169605164" duration="2264000" />
+      <workItem from="1565228069265" duration="10455000" />
+      <workItem from="1565313613127" duration="1749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275383000" />
+    <option name="totallyTimeSpent" value="328722000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,7 +377,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17377399" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -395,7 +386,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2340195" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2340195" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40303358" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,7 +396,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.16576381" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -725,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="370" column="65" selection-start-line="370" selection-start-column="56" selection-end-line="370" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java/jdk/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -745,41 +729,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/t/CollectionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/collection/t/女朋友.java" />
+    <entry file="jar://D:/java/jdk/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Person#0" />
-          </folding>
+        <state relative-caret-position="227">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/java/jdk/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="779" column="66" selection-start-line="779" selection-start-column="63" selection-end-line="779" selection-end-column="66" />
+        <state relative-caret-position="227">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/t/VariousList.java">
+    <entry file="jar://D:/java/jdk/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+        <state relative-caret-position="219">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="458" column="23" lean-forward="true" selection-start-line="458" selection-start-column="23" selection-end-line="458" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/t/CollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="253" column="34" lean-forward="true" selection-start-line="253" selection-start-column="34" selection-end-line="253" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#vectorTest#0;class#VariousList#0" />
-            <element signature="method#arrayListTest#0;class#VariousList#0" />
-            <element signature="method#linkedListTest#0;class#VariousList#0" />
+            <element signature="class#Person#0" />
+            <element signature="method#testCollectionArrayListOverride#0;class#CollectionTest#0" />
+            <element signature="method#listArrayListTest#0;class#CollectionTest#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collection/t/Genericity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="525">
+          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collection/t/VariousList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="133" column="26" lean-forward="true" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#vectorTest#0;class#VariousList#0" />
+            <element signature="method#linkedListTest#0;class#VariousList#0" />
+            <element signature="method#getExtendsRelative#0;class#VariousList#0" />
+            <element signature="method#excludeRepeat#0;class#VariousList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

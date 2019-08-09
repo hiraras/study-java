@@ -43,10 +43,21 @@ class Person {
 }
 
 public class CollectionTest {
+    public static <T> void testStaticImport(T data) {
+        System.out.println(data);
+    }
+    public static int myBirthday = 19960221;
     public static Collection createNumCollection(int length) {
         Collection list = new ArrayList();
         for (int i = 0; i < length; i += 1) {
             list.add(i);
+        }
+        return list;
+    }
+    public static Collection createNumCollection(int start, int length) {
+        Collection list = new ArrayList();
+        for (int i = 0; i < length; i += 1) {
+            list.add(i + start);
         }
         return list;
     }
@@ -80,7 +91,8 @@ public class CollectionTest {
         list3.addAll(list);
         System.out.println(list3); // [java, javascript]
         list3.add("extra");
-        // 删除java元素
+        // 删除java元素,如果集合里面有重复的值,则删除第一个查到的
+        // 查询的时候比较值不比较地址,如存入new String("hi"),remove("hi")也能正确删除
         list3.remove("java");
         System.out.println(list3); // [javascript, extra]
         // 可以重复

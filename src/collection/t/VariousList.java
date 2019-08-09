@@ -1,9 +1,8 @@
 package collection.t;
 
-import java.util.ArrayList;
-import java.util.Vector;
-import java.util.LinkedList;
-import java.util.Iterator;
+import java.util.*;
+import utils.Utils;
+
 import collection.t.CollectionTest;
 public class VariousList {
     public static void vectorTest() {
@@ -134,7 +133,23 @@ public class VariousList {
 //        vectorTest();
 //        arrayListTest();
 //        linkedListTest();
-        excludeRepeat();
+//        excludeRepeat();
+//        getExtendsRelative();
+//        nestIterateListTest();
+//        getRandomListNoRepeat(1, 20, 10);
+        listToStringTest();
+    }
+    public static void getExtendsRelative() {
+        ArrayList arrayList = new ArrayList();
+        Vector vector = new Vector();
+        LinkedList linkedList = new LinkedList();
+        System.out.println(arrayList instanceof List); // true
+        System.out.println(vector instanceof List); // true
+        System.out.println(linkedList instanceof List); // true
+
+        System.out.println(arrayList instanceof Collection); // true
+        System.out.println(vector instanceof Collection); // true
+        System.out.println(linkedList instanceof Collection); // true
     }
     public static void excludeRepeat() {
         ArrayList list = new ArrayList();
@@ -153,5 +168,47 @@ public class VariousList {
             }
         }
         System.out.println(list);
+    }
+    public static void nestIterateListTest() {
+        ArrayList list = new ArrayList();
+        list = (ArrayList)CollectionTest.createNumCollection(4);
+        ArrayList list2 = (ArrayList)CollectionTest.createNumCollection(6, 2);
+        ArrayList list3 = (ArrayList)CollectionTest.createNumCollection(20, 3);
+        list2.add(list3);
+        list.add(list2);
+        System.out.println(list); // [0, 1, 2, 3, [6, 7, [20, 21, 22]]]
+        nestIterate(list);
+    }
+    public static void nestIterate(ArrayList list) {
+        ListIterator listIt = list.listIterator();
+        while(listIt.hasNext()) {
+            Object elem = listIt.next();
+            if (elem instanceof List) {
+                nestIterate((ArrayList)elem);
+            } else {
+                System.out.println(elem);
+            }
+        }
+    }
+    public static void getRandomListNoRepeat(int min, int max, int length) {
+        int i = 0;
+        ArrayList list = new ArrayList();
+        while (i < length) {
+            int num = Utils.getRandom(min, max);
+            if (list.contains(num)) {
+                continue;
+            }
+            list.add(num);
+            i ++;
+        }
+        System.out.println(list);
+    }
+
+    public static void listToStringTest() {
+        ArrayList arr = new ArrayList();
+        arr.add(2);
+        arr.add(new Person());
+        System.out.println(arr.toString()); // [2, name:null, age:0]
+        System.out.println(Arrays.toString(arr.toArray())); // [2, name:null, age:0]
     }
 }
