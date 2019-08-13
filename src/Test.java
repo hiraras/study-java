@@ -14,9 +14,11 @@ public abstract class Test {
 
     }
     public static void main(String[] args) {
-        System.out.println(Integer.MAX_VALUE);
-        System.out.println(Integer.MIN_VALUE);
-        System.out.println(Byte.MAX_VALUE);
-        System.out.println(Byte.MIN_VALUE);
+        System.out.println(Integer.MAX_VALUE); // 2147483647
+        System.out.println(Integer.MIN_VALUE); // -2147483648
+        System.out.println(Byte.MAX_VALUE); // 127
+        System.out.println(Byte.MIN_VALUE); // -128
+        System.out.println(new Student().hashCode()); // 460141958
+        System.out.println(new Student().hashCode()); // 1163157884
     }
 }
