@@ -1,11 +1,6 @@
 package collection.t;
 
-import java.util.Collection;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.ListIterator;
+import java.util.*;
 
 class Person {
     private String name;
@@ -156,8 +151,8 @@ public class CollectionTest {
         System.out.println("-------collectionArrayListTest-end----------");
     }
 
-    public static void testCollectionArrayListOverride() {
-        System.out.println("-------testCollectionArrayListOverride-start----------");
+    public static void collectionArrayListOverrideTest() {
+        System.out.println("-------collectionArrayListOverrideTest-start----------");
         Person p = new Person("jack", 8);
         Person p2 = new Person("Frank", 8);
         Person p3 = new Person("tomaku", 33);
@@ -181,7 +176,7 @@ public class CollectionTest {
             Person s = (Person) it.next();
             System.out.println(s.getName() + "---" + s.getAge());
         }
-        System.out.println("-------testCollectionArrayListOverride-end----------");
+        System.out.println("-------collectionArrayListOverrideTest-end----------");
     }
 
     public static void listArrayListTest() {
@@ -226,10 +221,45 @@ public class CollectionTest {
         System.out.println("-------listArrayListTest-end----------");
     }
 
+    public static void collectionsTest() {
+        // Collections类：针对集合的工具类
+        System.out.println("-------collectionsTest-start----------");
+        ArrayList list = new ArrayList();
+        list.add(2);
+        list.add(1);
+        System.out.println(list); // [2, 1]
+        Collections.sort(list);
+        System.out.println(list); // [1, 2]
+        System.out.println(Collections.binarySearch(list, 2)); // 1
+        System.out.println(Collections.max(list)); // 2
+        Collections.reverse(list);
+        System.out.println(list); // [2, 1]
+        list.add(3);
+        list.add(4);
+        list.add(3);
+        // 随机排序集合
+        Collections.shuffle(list);
+        System.out.println(list); // [4, 1, 3, 3, 2]
+        List<Person> list2 = new ArrayList<>();
+        Person p1 = new Person("jack", 22);
+        Person p2 = new Person("tom", 24);
+        list2.add(p2);
+        list2.add(p1);
+        System.out.println(list2); // [name:tom, age:24, name:jack, age:22]
+        Collections.sort(list2, new Comparator<Person>() {
+            public int compare(Person o1, Person o2) {
+                return o1.getAge() - o2.getAge();
+            }
+        });
+        System.out.println(list2); // [name:jack, age:22, name:tom, age:24]
+        System.out.println("-------collectionsTest-end----------");
+    }
+
     public static void main(String[] args) {
-        collectionArrayListTest();
-//        testCollectionArrayListOverride();
+//        collectionArrayListTest();
+//        collectionArrayListOverrideTest();
 //        listArrayListTest();
+        collectionsTest();
 //        test();
     }
 

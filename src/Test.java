@@ -11,6 +11,9 @@ class Student {
 }
 public abstract class Test {
     public static void test() {
+        String str1 = "12";
+        String str2 = "23";
+        System.out.println(str1.concat(str2));
 
     }
     public static void main(String[] args) {
@@ -20,5 +23,6 @@ public abstract class Test {
         System.out.println(Byte.MIN_VALUE); // -128
         System.out.println(new Student().hashCode()); // 460141958
         System.out.println(new Student().hashCode()); // 1163157884
+        test();
     }
 }
