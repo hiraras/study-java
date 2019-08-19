@@ -151,6 +151,6 @@ class Father {
     }
 }
 class Child extends Father {
-    public void method1() {
+    public void method1() throws Error {
     }
 }
