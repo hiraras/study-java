@@ -14,4 +14,44 @@ public class Utils {
         }
         return arr;
     }
+    // 斐波那契数列
+    public static int fibonacci(int num) {
+        if (num == 1 || num == 2) {
+            return 1;
+        }
+        return fibonacci(num - 1) + fibonacci(num - 2);
+    }
+    // 阶乘
+    public static int factorial(int num) {
+        if (num == 1) {
+            return 1;
+        }
+        return factorial(num - 1) * num;
+    }
+    // 倒叙输出一个整数1345 -> 5431
+    public static void printReverseNum(int num) {
+        System.out.print(num % 10);
+        if (num / 10 == 0) {
+            return;
+        }
+        printReverseNum(num / 10);
+    }
+    public static int reverseNum(int num) {
+        StringBuffer sb = new StringBuffer("" + num);
+        sb.reverse();
+        return Integer.parseInt(sb.toString());
+    }
+    // 倒序
+    public static byte[] reverseArray(byte[] arr) {
+        int start = 0;
+        int end = arr.length - 1;
+        while(start < end) {
+            byte temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start ++;
+            end --;
+        }
+        return arr;
+    }
 }
