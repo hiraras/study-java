@@ -146,11 +146,11 @@ class MyException extends Exception {
 }
 
 class Father {
-    public void method1() throws Exception {
+    public void method1() {
 
     }
 }
 class Child extends Father {
-    public void method1() throws Error {
+    public void method1() {
     }
 }

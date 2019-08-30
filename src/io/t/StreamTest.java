@@ -181,10 +181,12 @@ public class StreamTest {
     }
     public static void main(String[] args) {
         try {
-            read();
+//            read();
 //            write();
 //            readExcel();
 //            copyDir();
+            String line = null;
+            System.out.println(imitateReadLine());
         } catch(FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -228,5 +230,29 @@ public class StreamTest {
         }
         fis.close();
         fos.close();
+    }
+    public static String imitateReadLine() throws IOException {
+        File file = new File(BUFFERED_DIR + "1.txt");
+        Reader r = new InputStreamReader(new FileInputStream(file), "GBK");
+        int n;
+        StringBuffer sb = new StringBuffer();
+        int ch = 0;
+        while ((ch = r.read()) != -1) {
+            if (ch == '\r') {
+                continue;
+            }
+            if (ch == '\n') {
+                return sb.toString();
+            } else {
+                sb.append((char) ch);
+            }
+        }
+
+        // 防止数据丢失
+        if (sb.length() > 0) {
+            return sb.toString();
+        }
+
+        return null;
     }
 }
