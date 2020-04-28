@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee6c3e8f-ec96-4437-8043-ae186ce49edb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/io/t/ExpectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/t/ExpectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/io/t/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/t/StreamTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ee6c3e8f-ec96-4437-8043-ae186ce49edb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/t/StreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1430">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="66">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,20 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/t/ExpectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/io/t/OtherStreamTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state relative-caret-position="3256">
+              <caret line="156" selection-start-line="156" selection-end-line="156" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,9 +59,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/io/t/OtherStreamTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/thread/t/ThreadTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#74#75#0" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#1080#1081#0" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/java/jdk/src.zip!/java/util/concurrent/Callable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="61" column="30" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742">
+            <state relative-caret-position="682">
               <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -183,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/io/t/StreamTest.java" />
         <option value="$PROJECT_DIR$/src/io/t/ExpectionTest.java" />
         <option value="$PROJECT_DIR$/src/io/t/OtherStreamTest.java" />
+        <option value="$PROJECT_DIR$/src/thread/t/ThreadTest.java" />
       </list>
     </option>
   </component>
@@ -193,7 +218,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="72" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -207,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,33 +250,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="t" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="t" type="462c0819:PsiDirectoryNode" />
-              <item name="ExpectionTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -284,20 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OtherStreamTest">
-    <configuration name="ExpectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.t.ExpectionTest" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.t.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadTest">
     <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.t.FileTest" />
       <module name="java" />
@@ -344,6 +333,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.t.ThreadTest" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.t.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -355,11 +357,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.OtherStreamTest" />
         <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.FileTest" />
-        <item itemvalue="Application.ExpectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -423,11 +425,12 @@
       <workItem from="1566437181602" duration="13275000" />
       <workItem from="1566523914601" duration="10051000" />
       <workItem from="1566958708989" duration="13736000" />
+      <workItem from="1567129274097" duration="4959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="475113000" />
+    <option name="totallyTimeSpent" value="480072000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,13 +444,13 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.21108742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5005417" side_tool="true" weight="0.21108742" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.2611051" />
@@ -480,20 +483,6 @@
     <SUITE FILE_PATH="coverage/study$Test.ic" NAME="Test Coverage Results" MODIFIED="1563960172135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/character/t/CharacterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/jdk/src.zip!/java/util/regex/Pattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23936">
-          <caret line="1133" column="37" selection-start-line="1133" selection-start-column="37" selection-end-line="1133" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java/jdk/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16478">
@@ -843,9 +832,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/t/StreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/t/ExpectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3256">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
+        <state relative-caret-position="682">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -856,32 +865,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/t/StreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1430">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/t/ExpectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/t/OtherStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        <state relative-caret-position="726">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk/src.zip!/java/util/concurrent/Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thread/t/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#74#75#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
           </folding>
         </state>
       </provider>
